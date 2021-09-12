@@ -1,0 +1,282 @@
+
+<!-- saved from url=(0108)https://reinderk.com/stat?i=mh3avn2ez6149faou0bie&a=892268344d2937a54da753b84c44cda20&cb=8234291630612808555 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" id="prebid" async="" src="./prebid_v4_38.js"></script><style>body { margin:0; padding:0px; background-color: #fff; }</style>
+		<script>
+		(function() {
+			let frame = window;
+			let cmpFrame;
+		  
+			const cmpCallbacks = {};		  
+			while(frame) {
+			  try {
+				if (frame.frames['__tcfapiLocator']) {
+				  cmpFrame = frame;
+				  break;
+				}
+			  } catch(ignore) {}
+		  
+			  if (frame === window.top) {
+				break;		  
+			  }
+		  
+			  frame = frame.parent;
+			}
+		  
+			window.__tcfapi = function(cmd, version, callback, arg) {
+			  if (!cmpFrame) {
+				callback({msg: 'CMP not found'}, false);
+			  } else {
+				const callId = Math.random() + '';
+				const msg = {
+				  __tcfapiCall: {
+					command: cmd,
+					parameter: arg,
+					version: version,
+					callId: callId,
+				  },
+				};
+		  
+				cmpCallbacks[callId] = callback;
+				cmpFrame.postMessage(msg, '*');
+			  }
+			};
+		  
+			function postMessageHandler(event) {
+			  let json = {};
+
+			  try {
+				json = typeof event.data === 'string' ? JSON.parse(event.data) : event.data;
+			  } catch (ignore) {}
+		  
+			  const payload = json.__tcfapiReturn;
+		  
+			  if (payload) {
+				if (typeof cmpCallbacks[payload.callId] === 'function') {
+				  cmpCallbacks[payload.callId](payload.returnValue, payload.success);
+				  cmpCallbacks[payload.callId] = null;
+				}
+			  }
+			}
+		  
+			window.addEventListener('message', postMessageHandler, false);
+		  
+		  }());
+		</script>
+		</head>
+		<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" ondragstart="return false;" ondrop="return false;" data-new-gr-c-s-check-loaded="14.1027.0" data-gr-ext-installed=""><script>
+    (function(id) {
+        if (document.getElementById(id)) return;
+        var pbjsEl = document.createElement('script'); pbjsEl.type = 'text/javascript'; pbjsEl.id = id;
+        pbjsEl.async = true; var isHttps = 'https:' === document.location.protocol;
+        pbjsEl.src = 'https://hb.adpone.com/prebid_v4_38.js';
+        var pbjsTargetEl = document.getElementsByTagName('head')[0];
+        pbjsTargetEl.insertBefore(pbjsEl, pbjsTargetEl.firstChild);
+    })('prebid');
+    (function(){
+        const cmpRequired = parseInt('1');
+        var passbackTagHtml = '';
+        function unencodeHtmlContent(escapedHtml) {
+            var elem = document.createElement('div');
+            elem.innerHTML = escapedHtml;
+            var result = '';
+            for (var i = 0; i < elem.childNodes.length; ++i) {
+                result = result + elem.childNodes[i].nodeValue;
+            }
+            return result;
+        }
+        function getPlacementScriptElement(){
+            if (document.currentScript)
+                return document.currentScript;
+            else {
+                var scripts = document.getElementsByTagName('script');
+                var currentScript_2 = scripts[scripts.length - 1];
+                return currentScript_2;
+            }
+        }
+        function getQueryString(script){
+            var queryString = script.src.replace(/^[^\?]+\??/,'');
+            return '?'+queryString;
+        }
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, '\$&');
+            var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            try {
+                return decodeURIComponent(results[2].replace(/\+/g, ' '));
+            }catch(err){
+                return null;
+            }
+        }
+        var plmntScriptElement = getPlacementScriptElement();
+        var _id = new Date().getTime();
+        var _placementFrmId = 'postbid_if_' + _id;
+        var adUnitSizes = [[300,250]];
+        var adUnitBids = [
+          {
+                    bidder: "criteo",
+                    params: {
+                              zoneId: "1491572"
+                    }
+          },
+          {
+                    bidder: "smartadserver",
+                    params: {
+                              domain: "https://prg.smartadserver.com",
+                              siteId: "430287",
+                              pageId: "1411680",
+                              formatId: "71867"
+                    }
+          },
+          {
+                    bidder: "appnexus",
+                    params: {
+                              placementId: "22016173"
+                    }
+          },
+          {
+                    bidder: "adform",
+                    params: {
+                              mid: "1081973"
+                    }
+          },
+          {
+                    bidder: "openx",
+                    params: {
+                              unit: "545627579",
+                              delDomain: "adpone-d.openx.net"
+                    }
+          },
+          {
+                    bidder: "between",
+                    params: {
+                              w: "300",
+                              h: "250",
+                              s: "4124342"
+                    }
+          }
+];
+	function getPlacementFrameId (){
+            return _placementFrmId;
+        }
+        function createPlacementIframe(id){
+            var frmEl = document.createElement('iframe');
+            frmEl.setAttribute('id', getPlacementFrameId());
+            frmEl.frameBorder = '0';
+            frmEl.scrolling = 'no';
+            frmEl.marginWidth = '0';
+            frmEl.marginHeight = '0';
+            frmEl.TOPMARGIN = '0';
+            frmEl.LEFTMARGIN = '0';
+            frmEl.ALLOWTRANSPARENCY = 'true';
+            frmEl.width = '0';
+            frmEl.height = '0';
+            return frmEl;
+        }
+        var plmntFrame = createPlacementIframe();
+        if (plmntScriptElement){
+            plmntScriptElement.parentNode.insertBefore(plmntFrame, plmntScriptElement);
+        }else {
+            return 0;
+        }
+        window.pbjs = window.pbjs || {};
+        pbjs.que = pbjs.que || [];
+        var adUnitCodeName = 'adpn-adtag-'  + _id;
+        pbjs.que.push(function() {
+            var adUnits = [{
+                code: adUnitCodeName,
+                sizes: adUnitSizes,
+                mediaTypes: {
+                    banner: {
+                        sizes: adUnitSizes
+                    }
+                },
+                bids: adUnitBids
+            }];
+            if (cmpRequired) {
+                pbjs.setConfig({
+                    consentManagement: {
+                        cmpApi: 'iab',
+                        timeout: 8000,
+                        allowAuctionWithoutConsent: true
+                    },
+                })
+            }
+            pbjs.setConfig({
+                userSync: {
+                    iframeEnabled: true,
+                    filterSettings: {
+                        iframe: {
+                            bidders: '*',
+                            filter: 'include'
+                        }
+                    },
+                    userIds: [{
+                        name: 'id5Id',
+                        params: {
+                            partner: 546,
+                        },
+                        storage: {
+                            type: 'html5',
+                            name: 'id5id',
+                            expires: 90,
+                            refreshInSeconds: 8 * 3600
+                        }
+                    }],
+                    auctionDelay: 50
+                },
+                schain: {
+                    validation: "strict",
+                    config: {
+                        ver:"1.0",
+                        complete: 1,
+                        nodes: [
+                            {
+                                "asi":"adpone.com",
+                                "sid":"ba397edb542c0e61ab37",
+                                "hp":1
+                            }
+                        ]
+                    }
+                }
+            });
+            pbjs.bidderSettings = {
+                smartadserver: {
+                    bidCpmAdjustment : function(bidCpm) {
+                        return bidCpm * 0.88 ;
+                    }
+                }
+            };
+            pbjs.addAdUnits(adUnits);
+            pbjs.requestBids({
+                adUnitCodes: [adUnitCodeName],
+                timeout: 2000,
+                bidsBackHandler: function() {
+                    var iframe = document.getElementById(getPlacementFrameId());
+                    var iframeDoc = iframe.contentWindow.document;
+                    var params = pbjs.getAdserverTargetingForAdUnitCode(adUnitCodeName);
+                    if(params && params['hb_adid']){
+                        pbjs.renderAd(iframeDoc, params['hb_adid']);
+                    } else {
+                        if (passbackTagHtml) {
+                            iframe.width = adUnitSizes[0][0];
+                            iframe.height = adUnitSizes[0][1];
+                            iframeDoc.write(unencodeHtmlContent(passbackTagHtml));
+                            iframeDoc.close();
+                        } else {
+                            if (iframe) {
+                                iframe.parentNode.removeChild(iframe);
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    })();
+    var gd = '2021-7-20 10:54:53';
+</script>
+
+		
+		</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

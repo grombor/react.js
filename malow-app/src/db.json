@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "family": "social",
+      "name": "sum300",
+      "price": 1,
+      "dimmension-h": 1990,
+      "dimmension-w": 600,
+      "dimmension-d": 465,
+      "picture": "",
+      "weight": 1,
+      "code": "codEE001",
+      "shelfs": 2,
+      "columns": 2,
+      "info": "lorem ipsum",
+      "additional_info": "lorem ipsum"
+    },
+    {
+      "id": 2,
+      "family": "social",
+      "name": "su230",
+      "price": 1,
+      "dimmension-h": 1990,
+      "dimmension-w": 600,
+      "dimmension-d": 465,
+      "picture": "",
+      "weight": 1,
+      "code": "codEE001",
+      "shelfs": 2,
+      "columns": 2,
+      "info": "lorem ipsum",
+      "additional_info": "lorem ipsum"
+    }
+  ],
+  "profile": {
+    "login": "admin",
+    "password": "admin"
+  }
+}

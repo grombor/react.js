@@ -1,0 +1,29 @@
+id,type,name,code,shortCode,version,price,dimmension-h,dimmension-w,dimmension-d,weight,lockType,shelfs,columns,drawers,info,additional_info,picture
+1,socjalne,Sum 310 W,WSU 0101020102,37796,lx,450,1990,600,465,,1-pkt.,,,,,lorem ipsum,lorem ipsum
+2,socjalne,Sum 310 W,WSU 0101020102,37796,st,380,1990,600,465,,1-pkt.,,,,,lorem ipsum,lorem ipsum
+3,socjalne,Sum 310 W,WSU 0101020102,37796,lx,470,1990,600,465,,3-pkt.,,,,,lorem ipsum,lorem ipsum
+4,socjalne,Sum 310 W,WSU 0101020102,37796,st,390,1990,600,465,,3-pkt.,,,,,lorem ipsum,lorem ipsum
+5,socjalne,Sum 320 W,WSU 0102020102,37797,lx,690,1990,600,465,,1-pkt.,,,,,lorem ipsum,lorem ipsum
+6,socjalne,Sum 320 W,WSU 0102020103,37797,st,575,1990,600,465,,2-pkt.,,,,,lorem ipsum,lorem ipsum
+7,socjalne,Sum 320 W,WSU 0102020104,37797,lx,715,1990,600,465,,3-pkt.,,,,,lorem ipsum,lorem ipsum
+8,socjalne,Sum 320 W,WSU 0102020105,37797,st,600,1990,600,465,,3-pkt.,,,,,lorem ipsum,lorem ipsum
+9,socjalne,Sum 330 W,WSU 0103020102,37798,lx,1035,1990,600,465,,1-pkt.,,,,,lorem ipsum,lorem ipsum
+10,socjalne,Sum 330 W,WSU 0103020102,37798,st,860,1990,600,465,,1-pkt.,,,,,lorem ipsum,lorem ipsum
+11,socjalne,Sum 330 W,WSU 0103020102,37798,lx,1065,1990,600,465,,3-pkt.,,,,,lorem ipsum,lorem ipsum
+12,socjalne,Sum 330 W,WSU 0103020102,37798,st,890,1990,600,465,,3-pkt.,,,,,lorem ipsum,lorem ipsum
+13,socjalne,Sum 340 W,WSU 0104020102,37799,lx,1490,1990,600,465,,1-pkt.,,,,,lorem ipsum,lorem ipsum
+14,socjalne,Sum 340 W,WSU 0104020102,37800,st,1225,1990,600,465,,1-pkt.,,,,,lorem ipsum,lorem ipsum
+15,socjalne,Sum 340 W,WSU 0104020102,37801,lx,1525,1990,600,465,,3-pkt.,,,,,lorem ipsum,lorem ipsum
+16,socjalne,Sum 340 W,WSU 0104020102,37802,st,1285,1990,600,465,,3-pkt.,,,,,lorem ipsum,lorem ipsum
+17,socjalne,KBS 1,KBS 01050201,3860,st,3860,,,,,,,,,,,
+18,socjalne,KBS 2,KBS 03050601,3032,st,3300,,,,,,,,,,,
+19,socjalne,KBS 3,KBS 02050201,2508,st,2500,,,,,,,,,,,
+20,socjalne,KBS 4,KBS 04050601,1685,st,1685,,,,,,,,,,,
+21,biurowe,Sbm 210 M,SBMC 03032804,,lx,1200,1990,100,435,76,,,,,,"This office cabinet with retractable doors is equipped with fixed double-compartment lock box, locked with cylinder lock.",
+22,biurowe,Sbm 211 M,SBMC 03032805,,lx,1250,1990,100,435,80,,,,,,"This office cabinet with retractable doors is equipped with fixed double-compartment lock box, locked with cylinder lock.",
+23,warsztatowe,Regał GRZ-18/6/4,GRZ   01010101,,kw,2123,,,,,,,,,,,
+24,warsztatowe,Regał GRZ-18/6/5,GRZ   02010101,,kw,2263,,,,,,,,,,,
+25,warsztatowe,Regał GRZ-18/6/6,GRZ   03010101,,kw,2376,,,,,,,,,,,
+26,warsztatowe,Regał GRZ-18/6/4,GRZ   01010101,,nr,1374,,,,,,,,,,,
+27,warsztatowe,Regał GRZ-18/6/5,GRZ   02010101,,nr,1469,,,,,,,,,,,
+28,warsztatowe,Regał GRZ-18/6/6,GRZ   03010101,,nr,1543,,,,,,,,,,,
